@@ -1,0 +1,9 @@
+langgraph>=0.2
+langchain-core>=0.3
+chromadb>=0.5
+scikit-learn>=1.4
+numpy
+pytest
+# optional, for a real LLM:
+# langchain-openai
+# langchain-google-genai
