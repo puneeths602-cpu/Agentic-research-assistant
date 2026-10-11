@@ -1,1 +1,230 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic Research Assistant</title>
+    <meta name="description" content="An AI-powered research assistant for exploring questions, gathering information, and generating research answers.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: #f5f7ff;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            border-bottom: 1px solid #26304a;
+        }
+
+        .logo {
+            font-size: 21px;
+            font-weight: bold;
+            color: #8ea8ff;
+        }
+
+        .status {
+            color: #9ce9c0;
+            font-size: 13px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 75px 24px;
+            text-align: center;
+        }
+
+        .tag {
+            display: inline-block;
+            border: 1px solid #394a78;
+            background: #151f3a;
+            color: #b7c8ff;
+            border-radius: 25px;
+            padding: 7px 15px;
+            font-size: 13px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: clamp(36px, 6vw, 62px);
+            line-height: 1.15;
+            margin-bottom: 22px;
+        }
+
+        h1 span {
+            color: #91aaff;
+        }
+
+        .intro {
+            max-width: 680px;
+            margin: 0 auto 32px;
+            color: #bac4dc;
+            font-size: 17px;
+        }
+
+        .notice {
+            max-width: 650px;
+            margin: 0 auto 40px;
+            padding: 18px;
+            border: 1px solid #394563;
+            background: #121a2e;
+            border-radius: 12px;
+            color: #d6def3;
+            text-align: left;
+        }
+
+        .notice strong {
+            color: #ffffff;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            margin-top: 45px;
+            text-align: left;
+        }
+
+        .card {
+            background: #121a2e;
+            border: 1px solid #293653;
+            border-radius: 14px;
+            padding: 25px;
+        }
+
+        .card .icon {
+            font-size: 27px;
+            margin-bottom: 12px;
+        }
+
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 9px;
+        }
+
+        .card p {
+            color: #aebbd5;
+            font-size: 14px;
+        }
+
+        .tech {
+            margin-top: 42px;
+            color: #aebbd5;
+            font-size: 14px;
+        }
+
+        .tech span {
+            display: inline-block;
+            margin: 6px 4px;
+            padding: 5px 11px;
+            background: #192440;
+            border: 1px solid #344366;
+            border-radius: 6px;
+        }
+
+        footer {
+            border-top: 1px solid #26304a;
+            padding: 24px;
+            text-align: center;
+            color: #8996b1;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 18px 5%;
+            }
+
+            main {
+                padding-top: 50px;
+            }
+
+            .intro {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🔎 Agentic Research AI</div>
+        <div class="status">● Project Website</div>
+    </header>
+
+    <main>
+        <div class="tag">AI · Research · Multi-Agent Systems</div>
+
+        <h1>Your Intelligent<br><span>Research Assistant</span></h1>
+
+        <p class="intro">
+            Explore an AI-powered research assistant designed to help
+            investigate questions, organize research steps, and generate
+            useful answers through an agentic workflow.
+        </p>
+
+        <div class="notice">
+            <strong>Welcome to the project!</strong>
+            <p>
+                This page introduces the Agentic Research Assistant project.
+                The interactive research engine requires a running Python
+                backend and is not executed by GitHub Pages.
+            </p>
+        </div>
+
+        <section class="features">
+            <div class="card">
+                <div class="icon">🧠</div>
+                <h2>Agentic Workflow</h2>
+                <p>
+                    Organizes a research task into steps to support a more
+                    structured approach to answering questions.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">📚</div>
+                <h2>Research Support</h2>
+                <p>
+                    Helps structure information and present research results
+                    in a readable format.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">⚙️</div>
+                <h2>Python Powered</h2>
+                <p>
+                    Built around a Python application and an app module
+                    containing the research workflow.
+                </p>
+            </div>
+        </section>
+
+        <div class="tech">
+            <strong>Project technologies</strong><br>
+            <span>Python</span>
+            <span>AI</span>
+            <span>Multi-Agent Systems</span>
+            <span>GitHub</span>
+        </div>
+    </main>
+
+    <footer>
+        Agentic Research Assistant · Academic / Portfolio Project
+    </footer>
+</body>
+</html>
+```
