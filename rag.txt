@@ -1,0 +1,4 @@
+Retrieval-Augmented Generation (RAG) grounds an LLM answer in external documents. Documents are split into chunks, embedded as vectors and stored in a vector database such as Chroma or FAISS.
+At query time the question is embedded, the nearest chunks are retrieved by cosine similarity and passed to the model as context, which reduces hallucination and allows citing sources.
+Chunk size matters: chunks that are too large dilute relevance, and chunks that are too small lose context. Overlap between chunks helps preserve meaning at the boundaries.
+RAG quality is measured with retrieval metrics such as recall at k and with generation metrics such as groundedness, which checks that claims are supported by retrieved context.

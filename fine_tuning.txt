@@ -1,0 +1,3 @@
+Fine-tuning adapts a pre-trained language model to a domain or task. Full fine-tuning updates all weights, while parameter-efficient methods such as LoRA train small adapter matrices and need far less memory.
+Prompt engineering and RAG are cheaper than fine-tuning and should be tried first. Fine-tuning is useful for consistent style, structured output and domain vocabulary.
+Typical NLP tasks for adapted models are summarisation, text classification and text generation. These are evaluated with ROUGE, accuracy and F1 respectively.
