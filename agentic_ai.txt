@@ -1,5 +1,0 @@
-Agentic AI systems use a large language model as a reasoning engine that can plan, call tools and act towards a goal with limited human supervision.
-A multi-agent system splits a task between specialised agents, for example a planner, a researcher, a writer and a reviewer, that pass shared state to each other.
-Frameworks such as LangGraph, CrewAI and AutoGen provide orchestration: LangGraph models the workflow as a graph of nodes and conditional edges over a typed state.
-Agents need memory. Short-term memory is the conversation or graph state, while long-term memory is usually stored in a vector database and retrieved when needed.
-Common failure modes are infinite loops, tool misuse, hallucinated tool arguments and compounding errors across steps. Step limits and reviewer agents reduce these risks.
