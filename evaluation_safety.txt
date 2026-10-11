@@ -1,4 +1,0 @@
-LLM applications are evaluated on quality, latency and cost. Useful metrics include groundedness, answer relevance, keyword coverage, p50 and p95 latency and tokens per answer.
-Latency can be reduced by caching retrieval results, limiting the number of agent steps, using smaller models for simple steps and running independent tool calls in parallel.
-AI safety practices include input validation, restricting which tools an agent may call, human approval for risky actions, logging every step for audit and refusing requests outside the allowed scope.
-Alignment research studies how to make model behaviour match human intent. Ethical AI also covers bias, privacy and transparency about the sources of an answer.
